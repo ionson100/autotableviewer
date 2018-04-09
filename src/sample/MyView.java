@@ -13,16 +13,16 @@ public class MyView {
     public int _pk ;
 
     @DisplayColumn(name_column = "date")
-    public java.util.Date date;// data чека
+    public java.util.Date date;// data
 
     @DisplayColumn(name_column = "name",ClassTableCell = tableTestName.class,width = 500)
-    public String name;// data чека
+    public String name;
 
     @DisplayColumn(name_column = "price",ClassTableCell = tableTestDouble.class)
-    public double price=1000;// data чека
+    public double price=1000;//
 
     @DisplayColumn(name_column = "price1",ClassTableCell = tableTestDouble.class)
-    public double price1=-10000;// data чека
+    public double price1=-10000;
 
 }
 
