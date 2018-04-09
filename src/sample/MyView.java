@@ -1,6 +1,6 @@
 package sample;
 
-import javafx.beans.property.SimpleIntegerProperty;
+
 import org.apache.log4j.Logger;
 import sample.tablebuilder.*;
 import sample.tablebuilder.celldescriptions.*;

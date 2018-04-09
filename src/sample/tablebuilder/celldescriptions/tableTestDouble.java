@@ -17,9 +17,9 @@ public class tableTestDouble implements ITableColumnCell<Object, Double> {
 
                 if ( item != null ) {
                     if ( item < 0 ) {
-                        setStyle ( getStyle () + "-fx-text-fill: red" );
+                        setStyle ( "-fx-text-fill: red" );
                     } else {
-                        setStyle ( getStyle () + "-fx-text-fill: black" );
+                        setStyle ( "-fx-text-fill: black" );
                     }
                     setText ( String.valueOf ( item ) );
                     setPadding ( new Insets ( 0 , 20 , 0 , 0 ) );

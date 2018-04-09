@@ -5,7 +5,12 @@ import javafx.scene.control.TableView;
 import sample.tablebuilder.BuilderTable;
 import sun.security.jgss.GSSUtil;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.util.*;
 
@@ -24,5 +29,8 @@ public class Controller implements Initializable {
             myViews.add ( view );
         }
         new BuilderTable ().build ( myViews,my_table );
+
     }
+
+
 }
