@@ -20,6 +20,7 @@ public class Controller implements Initializable {
     @Override
     public void initialize ( URL location , ResourceBundle resources ) {
 
+        //todo #123
         List<MyView> myViews=new ArrayList <> (  );
         for (int i = 0; i < 20; i++) {
             MyView view=new MyView ();
